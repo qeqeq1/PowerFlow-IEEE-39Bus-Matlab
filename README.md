@@ -8,15 +8,17 @@
 
 ## 📌 项目简介 | Project Overview
 
-本项目为 **南京理工大学《智能电网信息技术》课程** 中的 **电力系统分析理论** 作业之一，提供 **基于 MATLAB** 的 **IEEE 39 节点电力系统潮流计算** 代码，采用 **牛顿-拉夫逊法**（Newton-Raphson Method）求解。
+本项目为 **南京理工大学 自动化学院 智能电网信息工程及相关专业所学课程** 中的 **电力系统分析理论** 作业之一。   
+提供 **基于 MATLAB** 的 **IEEE 39 节点电力系统潮流计算** 代码，采用 **牛顿-拉夫逊法**（Newton-Raphson Method）进行求解。
+
 此项目为课程作业，预计不会有后续更新。但如果您发现任何问题，欢迎提出。
 
-这个代码是我在现有项目的基础上简单调整而来的。
+这个代码是我在现有项目的基础上简单调整而来的，参见本文末尾
 
 🚀 **特点**：
 - 采用 **牛顿-拉夫逊法** 计算潮流分布
-- 适用于 **IEEE 39-bus 系统** ，只要修改`Node_Data_1.xlsx`   和`Branch_Data_1.xlsx`  ，理论上任何节点数目都适用。
-- **MATLAB 实现**，适配 **R2022b 及以上版本**
+- 适用于 **IEEE 39-bus 系统** ，但只要修改`Node_Data_1.xlsx`   和`Branch_Data_1.xlsx`  ，理论上任何节点数目都适用。
+- **MATLAB 实现**，理论上适配 **R2022b 及以上版本**，其他版本请自行测试
 - **数据格式简单**，支持 Excel 直接输入
 
 ---
@@ -109,6 +111,7 @@
 ---
 
 ## 📖 参考资料 | References
+
 - [IEEE 39-bus Test System on GitHub](https://github.com/fxm-fxm/IEEE39_PowerFlowCalculation_Matlab)
 - [CloudPSS IEEE 39-bus Example](https://legacy.kb.cloudpss.net/zh/examples/IEEE39.html)
 ---
